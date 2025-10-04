@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #222;
+  padding: 1rem;
+}
+
+/* Skip link (visible on focus) */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: #0055aa;
+}
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+section h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Projects */
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+.project-list li {
+  margin-bottom: 1.5rem;
+}
+.project-list h3 {
+  margin-bottom: 0.5rem;
+}
+.project-list a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0055aa;
+}
+
+/* Form */
+form {
+  display: grid;
+  gap: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  background: #0055aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background: #003d80;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #555;
+}
