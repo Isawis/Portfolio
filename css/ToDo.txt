@@ -1,0 +1,10 @@
+
+Contents
+- Education section
+- See if you can make anything out of the form
+
+
+Styling
+- Style card links
+- Make menu sticky?
+- Make links and stuff in cards a footer thing?

@@ -1,0 +1,70 @@
+:root {
+    --Text-XL: 4rem; 
+    --Text-L: 2rem; 
+    --Text-M: 1.5rem;
+    --Text-S: 1.2rem;
+    --Text-XS: 1rem;
+    --Text-XXS: 0.8rem;
+}
+
+/* Sizing and visual hiearchy ---------------------------------------------------- */
+
+h1 {
+    font-size: var(--Text-XL);
+    font-weight: 500;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+h2 {
+    font-size: var(--Text-M);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--secondary-text-color);
+}
+
+h3 {
+    font-size: var(--Text-S);
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+p {
+    font-size: var(--Text-XS);
+    margin-bottom: 2rem;
+}
+
+
+#subheader {
+    font-size: var(--Text-L);
+    margin-bottom: 4rem;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+#intro p {
+    font-size: var(--Text-S);
+}
+
+.secondary {
+    font-size: var(--Text-XXS);
+    color: var(--secondary-text-color);
+    margin-bottom: 0px;
+}
+
+/* decreased margin for last p -------------------------------------------------- */
+
+.last {
+  margin-bottom: 0px;
+}
+
+
+/* Links ------------------------------------------------------------------------ */
+
+a {
+  text-decoration: none;
+  color: var(--interactive-text-color);
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
