@@ -1,249 +1,169 @@
-/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
+/* Basic Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
+body {
+  font-family: roboto, sans-serif;
+  line-height: 1.6;
+  background: var(--main-bg-color);
+  color: var(--primary-text-color);
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* Skip link (visible on focus) ---------------------------------------------------- */
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
+.skip-link {
   position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+  top: -50px;
+  left: 0;
+  background: var(--10-darken);
+  color: var(--interactive-text-color);
+  padding: 10px;
+  z-index: 100;
+  border-radius: 40px;
+  text-decoration: none;
 }
 
-/*
- * Extends the .visually-hidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visually-hidden.focusable:active,
-.visually-hidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+.skip-link:focus {
+  top: 15px;
+  left: 15px;
+  text-decoration: none;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
+/* Header ---------------------------------------------------- */
 
-.invisible {
-  visibility: hidden;
+header {
+  justify-content: center;
+  padding: 40px 2rem;
+  background-color: var(--10-darken);
 }
 
-/*
- * Clearfix: contain floats
- *
- * The use of `table` rather than `block` is only necessary if using
- * `::before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
+.header-container {
+  text-align: left;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  flex-wrap: wrap;
 }
 
-.clearfix::after {
-  clear: both;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* HERO ----------------------------------------------------  */
+#hero-box {
+  background-color: var(--10-darken);
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/* Sections ---------------------------------------------------- */
+section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  justify-content: center;
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+.section-container {
+  padding:2rem;
+}
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+/* cards  ---------------------------------------------------- */
+ .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: stretch;
+}
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-
+.card {
+  background-color: var(--10-darken);
+  border-radius: var(--border-radius-l);
+  padding: 20px;
+  height: 100%;
   
 }
 
+/* Removes padding from project cards to account for images  ---------------------------------------------------- */
+
+.project-list .card {
+  padding: 0;
+  
+}
+
+.card-container {
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius-l) var(--border-radius-l) 0 0;
+ 
+}
+
+.project-list, .about-list {
+  list-style: none;
+  padding: 0;
+}
+.project-list li, .about-list li {
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+  flex-basis: 30%;
+  min-width: 300px;
+}
+.project-list h3, .about-list h3 {
+  margin-bottom: 0.5rem;
+}
+.project-list a, .about-list a {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* Form ---------------------------------------------------- */
+form {
+  display: grid;
+  gap: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  background: #0055aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background: #003d80;
+}
+
+
+/* Footer ---------------------------------------------------- */
+footer {
+  text-align: center;
+  padding: 3rem;
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+  background-color: var(--10-darken);
+}

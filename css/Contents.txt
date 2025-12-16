@@ -1,0 +1,13 @@
+Where you can find what
+
+Root.css
+All root stylings. Basically the visual identity foundation. 
+
+textstyles.css
+Foundational text styling. Put into seperate file to make easier to find and manage. 
+
+Boilerstyle.css
+Styles that came with the original skeleton. No own css here.
+
+Style.css
+Custom CSS that is not foundational CSS. 
