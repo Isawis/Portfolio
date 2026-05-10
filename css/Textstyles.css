@@ -12,25 +12,24 @@
 h1 {
     font-size: var(--Text-XL);
     font-weight: 500;
-    text-align: center;
     color: var(--secondary-text-color);
 }
 
 h2 {
     font-size: var(--Text-M);
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 2rem;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 h3 {
-    font-size: var(--Text-S);
-    font-weight: 500;
+    font-size: var(--Text-L);
+    font-weight: 600;
     color: var(--secondary-text-color);
 }
 
 p {
-    font-size: var(--Text-XS);
+    font-size: var(--Text-S);
     margin-bottom: 2rem;
 }
 
@@ -38,18 +37,23 @@ p {
 #subheader {
     font-size: var(--Text-L);
     margin-bottom: 4rem;
-    text-align: center;
     color: var(--secondary-text-color);
 }
 
-#intro p {
+.intro{
     font-size: var(--Text-S);
 }
 
+/* Narrow paragraphs for readability -------------------------- */
+
+.narrow {
+  max-width: 800px;
+}
+
 .secondary {
-    font-size: var(--Text-XXS);
+    font-size: var(--Text-XS);
     color: var(--secondary-text-color);
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 /* decreased margin for last p -------------------------------------------------- */

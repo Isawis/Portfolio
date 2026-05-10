@@ -23,15 +23,24 @@
   --peach-800: #6B2C2C;
   --peach-900: #4F1A1A;
   --peach-950: #331111;
+
+  --peachplum: #3C2F33;
   
   --lilac-50: #FDF2F9;
   --lilac-100: #DCD6E5;
   --lilac-200: #BAAECC;
 
+  --10-darken: rgba(0, 0, 0, 0.1);
+  --60-darken: rgba(0, 0, 0, 0.6);
+
   --main-bg-color: var(--plum-950);
   --primary-text-color: var(--lilac-100);
   --secondary-text-color: var(--lilac-200);
   --interactive-text-color: var(--peach-300);
-  --10-darken: rgba(0, 0, 0, 0.1);
+  --menu-bg: var(--60-darken);
+
+  --border-radius-m: 16px; 
   --border-radius-l: 28px; 
+
+  --content-maxwidth: 1200px;
 }

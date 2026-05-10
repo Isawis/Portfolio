@@ -1,0 +1,35 @@
+@media only screen and (max-width: 992px) {
+
+  .horizontal-card {
+  background-color: var(--10-darken);
+  border-radius: var(--border-radius-m);
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+}
+
+.horizontal-card img { 
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-container {
+  padding: 32px 32px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+ .project-list {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch;
+  list-style: none;
+}
+
+}
