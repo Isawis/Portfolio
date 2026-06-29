@@ -13,6 +13,7 @@ h1 {
     font-size: var(--Text-XL);
     font-weight: 500;
     color: var(--secondary-text-color);
+    margin-bottom:24px;
 }
 
 h2 {

@@ -118,7 +118,7 @@ section h2 {
 }
 
 .horizontal-card img { 
-  width: 50%;
+  width: 40%;
   object-fit: cover;
 }
 
@@ -130,6 +130,17 @@ section h2 {
   margin-bottom: 32px;
 }
 
+
+.intro-card {
+  background-color: var(--10-darken);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin-bottom: 32px;
+  width: 600px;
+  margin:0px;
+  
+}
+
 .about-card h3 {
   font-size: var(--Text-M);
   padding-bottom:10px;
@@ -139,6 +150,7 @@ section h2 {
 .card-container {
   padding: 32px 64px;
   display:flex;
+  width:60%;
   flex-direction: column;
   justify-content: space-between;
 }
