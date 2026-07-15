@@ -43,12 +43,11 @@
 
   <header>
     <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="../pages/index.html">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="../pages/about.html">About</a></li>
-        </ul>
+   <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="../pages/index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+      </ul>
       </nav>
 
       <nav aria-label="contact links">
@@ -61,14 +60,14 @@
     </div>
   </header>
 
-  <main id="main">
-    <div class="section-container" id="hero-box">
-      <section id="hero">
+  <main">
+    <div class="hero">
+      <section>
         <h1>Isa Molinder</h1>
         <p id="subheader">UX designer and Accessibility specialist</p>
 
-        <p class="narrow intro">
-          I’m a strong-willed and determined soul with end-to-end experience across the 
+        <p class="narrow">
+          I’m a determined soul with end-to-end experience across the 
           design process. Skilled in design systems, visual design, and universal design principles, 
           I focus on creating cohesive, accessible, and scalable user experiences.
         </p>
@@ -78,12 +77,12 @@
       </section>
     </div>
 
-    <div class="section-container" id="project-box">
-      <section id="projects" aria-labelledby="projects-heading">
+    <div class="body-content">
+      <section aria-labelledby="projects-heading">
         <h2 id="projects-heading">UX case studies</h2>
         <ul class="project-list">
 
-          <li>
+          <li> <!-- ACCOUNT OVERVIEW -->
             <article class="horizontal-card">
               <img src="../img/Accountoverview.png" alt="Screenshot of DISK.SU.SE startpage">
               <div class ="card-container">
@@ -102,13 +101,13 @@
                   </ul>
                 </div>
 
-                <hr class="divider">
+                <hr class="divider" aria-hidden="true">
                 <a href="../projects/AOSME.html">Project: Account overview</a>
               </div>
             </article>
           </li>
 
-          <li>
+          <li> <!-- disk.su.se  -->
             <article class="horizontal-card">
               <img src="../img/Disk.png" alt="Screenshot of DISK.SU.SE startpage">
               <div class ="card-container">
@@ -127,13 +126,13 @@
                   </ul>
                 </div>
 
-                <hr class="divider">
-                <a href="project1.html">Project: DISK.SU.SE</a>
+                <hr class="divider" aria-hidden="true">
+                <a href="../projects/DISK.html">Project: DISK.SU.SE</a>
               </div>
             </article>
           </li>
 
-          <li>
+          <li> <!-- Stockholms Kattklubb  -->
             <article class="horizontal-card">
               <img src="../img/SK.png" alt="Screenshot of Stockholms Kattklubb startpage">
               <div class ="card-container">
@@ -154,13 +153,14 @@
                   </ul>
                 </div>
 
-                <hr class="divider">
+                <hr class="divider" aria-hidden="true">
 
                 <a href="project2.html">Project: Stockholms kattklubb</a>
               </div>
             </article>
           </li>
-          <li>
+
+          <li> <!-- Flourish  -->
             <article class="horizontal-card">
               <img src="../img/Flourish.png" alt="Two phon e displays showcasing the UI of Flourish">
               <div class ="card-container">
@@ -182,24 +182,25 @@
                   </ul>
                 </div>
 
-                <hr class="divider">
+                <hr class="divider" aria-hidden="true">
 
                 <a href="project2.html">Project: Flourish</a>
               </div>
             </article>
           </li>
         </ul>
+
       </section>
     </div>
   </main>
 
 <footer>
-    <p> <span id="year"></span> Isa Molinder. All rights reserved.</p>
-  </footer>
-   <script>
+  <p><span id="year"></span> Isa Molinder. All rights reserved.</p>
+  <script>
     // Auto-update year
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+</footer>
 
 </body>
 

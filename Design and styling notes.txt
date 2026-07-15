@@ -8,3 +8,24 @@ H3: undefined
 
 P: 1 rem (18px)
 P Description: 2 rem (32px)
+
+
+MVP TO DO
+  - Projecktsida: Flourish
+    - Projektsida: SK
+    - Fyll i content på DISK
+    - Projektsida: DnD DM screen
+
+NICE TO HAVE TO DO
+
+    - Byt bild på SK thumbnail på portfoliosidan.
+    - Byt ut bild-content på AO till maskinläsbar kod.
+    - Projektbilder i projekt-heron.
+    - Kategorisera projekt efter typ: UX jobb, fritidsgrejer, osv.
+    - skapa token för riktigt mörka bg-färgen.
+    - Indikator för vilken meny-flik man är på.
+    - Lessons learned på accessibility-fel på DISK
+
+    - Sida: Certifikat
+
+  

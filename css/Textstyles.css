@@ -1,48 +1,57 @@
 :root {
-    --Text-XL: 4rem; 
-    --Text-L: 2rem; 
-    --Text-M: 1.5rem;
-    --Text-S: 1.2rem;
-    --Text-XS: 1rem;
-    --Text-XXS: 0.8rem;
+    --text-xl: 4rem; 
+    --text-l: 2rem; 
+    --text-m: 1.5rem;
+    --text-s: 1.2rem;
+    --text-xs: 1rem;
+    --text-xxs: 0.8rem;
 }
 
 /* Sizing and visual hiearchy ---------------------------------------------------- */
 
 h1 {
-    font-size: var(--Text-XL);
+    font-size: var(--text-xl);
     font-weight: 500;
     color: var(--secondary-text-color);
     margin-bottom:24px;
 }
 
 h2 {
-    font-size: var(--Text-M);
+    font-size: var(--text-m);
     font-weight: 500;
+    color: var(--secondary-text-color);
     margin-bottom: 2rem;
-    color: var(--primary-text-color);
+    
 }
 
 h3 {
-    font-size: var(--Text-L);
+    font-size: var(--text-l);
     font-weight: 600;
     color: var(--secondary-text-color);
 }
 
+.project-h3 {
+    font-size: var(--text-s);
+    font-weight: 500;
+    margin-top: var(--padding-l);
+    margin-bottom: var(--padding-m);
+
+}
+
 p {
-    font-size: var(--Text-S);
+    font-size: var(--text-s);
     margin-bottom: 2rem;
 }
 
 
 #subheader {
-    font-size: var(--Text-L);
+    font-size: var(--text-l);
     margin-bottom: 4rem;
     color: var(--secondary-text-color);
 }
 
 .intro{
-    font-size: var(--Text-S);
+    font-size: var(--text-s);
 }
 
 /* Narrow paragraphs for readability -------------------------- */
@@ -52,7 +61,7 @@ p {
 }
 
 .secondary {
-    font-size: var(--Text-XS);
+    font-size: var(--text-xs);
     color: var(--secondary-text-color);
     margin-bottom: 10px;
 }

@@ -31,16 +31,22 @@
   --lilac-200: #BAAECC;
 
   --10-darken: rgba(0, 0, 0, 0.1);
+  --40-darken: rgba(0, 0, 0, 0.4);
   --60-darken: rgba(0, 0, 0, 0.6);
 
   --main-bg-color: var(--plum-950);
   --primary-text-color: var(--lilac-100);
   --secondary-text-color: var(--lilac-200);
   --interactive-text-color: var(--peach-300);
-  --menu-bg: var(--60-darken);
+  --menu-bg: #171416;
+  --hero-bg: #171416;
+  --footer-bg: #171416;
 
   --border-radius-m: 16px; 
   --border-radius-l: 28px; 
+
+  --padding-m: 16px;
+  --padding-l: 32px;
 
   --content-maxwidth: 1200px;
 }
