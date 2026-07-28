@@ -22,8 +22,13 @@ img {
   max-width: 100%;
 }
 
-.centered { 
-  margin: 0 auto;
+.padded-img {
+  margin: 40px 0px;
+}
+
+
+.centered-text {
+  text-align: center;
 }
 
 /* Skip link (visible on focus) ------------------------------- */
@@ -148,6 +153,7 @@ section h2 {
 }
 
 
+/* Unused for now, but saving in case of. 
 .intro-card {
   background-color: var(--10-darken);
   border-radius: var(--border-radius-m);
@@ -155,8 +161,8 @@ section h2 {
   margin-bottom: 32px;
   width: 600px;
   margin:0px;
-  
 }
+  */
 
 .about-card h3 {
   font-size: var(--Text-M);

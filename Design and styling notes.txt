@@ -13,7 +13,6 @@ P Description: 2 rem (32px)
 MVP TO DO
   - Projecktsida: Flourish
     - Projektsida: SK
-    - Fyll i content på DISK
     - Projektsida: DnD DM screen
 
 NICE TO HAVE TO DO
