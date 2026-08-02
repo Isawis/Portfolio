@@ -11,6 +11,7 @@
   --plum-800: #574C53;
   --plum-900: #453C42;
   --plum-950: #2B2529;
+  --plum-1000: #221B20;
 
   --peach-50: #FFF8F8;
   --peach-100: #FFDCDC;
@@ -31,12 +32,14 @@
   --lilac-200: #BAAECC;
 
   --10-darken: rgba(0, 0, 0, 0.1);
+  --20-darken: rgba(0, 0, 0, 0.2);
   --40-darken: rgba(0, 0, 0, 0.4);
   --60-darken: rgba(0, 0, 0, 0.6);
 
-  --main-bg-color: var(--plum-950);
+  --main-bg-color: var(--plum-1000);
   --primary-text-color: var(--lilac-100);
   --secondary-text-color: var(--lilac-200);
+  --colourful-text-colour: var(--peach-200);
   --interactive-text-color: var(--peach-300);
   --menu-bg: #171416;
   --hero-bg: #171416;
@@ -45,6 +48,7 @@
   --border-radius-m: 16px; 
   --border-radius-l: 28px; 
 
+  --padding-s: 8px;
   --padding-m: 16px;
   --padding-l: 32px;
 

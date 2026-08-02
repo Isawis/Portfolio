@@ -13,7 +13,6 @@ P Description: 2 rem (32px)
 MVP TO DO
 - Projektsida: SK
 - Projektsida: DnD DM screen
-- Fix h3 styling - make default smaller, start page should have custom styling.
 - Breadcrumbs for project pages
 
 

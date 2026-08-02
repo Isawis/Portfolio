@@ -14,7 +14,7 @@ body {
   color: var(--primary-text-color);
 }
 
-body #flourish {
+#flourish {
   Background: #4E756C;
 }
 
@@ -25,7 +25,6 @@ img {
 .padded-img {
   margin: 40px 0px;
 }
-
 
 .centered-text {
   text-align: center;
@@ -131,7 +130,7 @@ section h2 {
 /* cards  ----------------------------------------------------- */
 
 .horizontal-card {
-  background-color: var(--10-darken);
+  background-color: var(--20-darken);
   border-radius: var(--border-radius-m);
   padding: 0px;
   height: 100%;
@@ -146,10 +145,10 @@ section h2 {
 
 
 .about-card {
-  background-color: var(--10-darken);
+  background-color: var(--20-darken);
   border-radius: var(--border-radius-m);
-  padding: 20px;
-  margin-bottom: 32px;
+  padding: var(--padding-l);
+  margin-bottom: var(--padding-l);
 }
 
 
@@ -164,11 +163,6 @@ section h2 {
 }
   */
 
-.about-card h3 {
-  font-size: var(--Text-M);
-  padding-bottom:10px;
-  
-}
 
 .card-container {
   padding: 32px 64px;
@@ -176,15 +170,6 @@ section h2 {
   width:60%;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.project-list h3 {
-  margin-bottom: 0.5rem;
-}
-
-.project-list a {
-  display: inline-block;
-  margin-top: 0.5rem;
 }
 
 /* ----------------------------------------------------------------------- */
