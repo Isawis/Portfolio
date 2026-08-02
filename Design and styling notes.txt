@@ -24,6 +24,8 @@ NICE TO HAVE TO DO
     - skapa token för riktigt mörka bg-färgen.
     - Indikator för vilken meny-flik man är på.
     - Lessons learned på accessibility-fel på DISK
+    - Style card links
+    - Make links and stuff in cards a footer thing?
 
     - Sida: Certifikat
 
